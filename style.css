@@ -259,7 +259,7 @@
     width: fit-content;
     height: fit-content;
     position: absolute;
-    top:90vh; 
+    top: 95vh; 
     left: 48vw;
 }
 
@@ -356,5 +356,14 @@ body{
 
     .CreditosBox{
         left: 46vw;
+    }
+}
+
+@media only screen and (max-height: 360px){
+    .Logo{
+        top: -10px;
+    }
+    .ColisaoInput{
+        top: -25px;
     }
 }
